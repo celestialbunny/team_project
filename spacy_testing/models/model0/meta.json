@@ -1,0 +1,30 @@
+{
+  "lang":"es",
+  "name":"unnamed",
+  "pipeline":[
+    "tagger",
+    "parser",
+    "ner"
+  ],
+  "accuracy":{
+    "uas":85.6655845918,
+    "las":80.8928745915,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "tags_acc":97.5657291348,
+    "token_acc":100.0
+  },
+  "speed":{
+    "nwords":52336,
+    "cpu":4069.1884561039,
+    "gpu":null
+  },
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0
+  },
+  "spacy_version":">=2.0.16",
+  "version":"0.0.0"
+}
