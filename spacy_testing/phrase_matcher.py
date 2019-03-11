@@ -57,7 +57,10 @@ terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car 
 #     'Business Loans',
 #     ]
 
-sentence = "AEON i-Cash Personal Financing has approved financing amount of up to RM 100,000 and interest rates as low as 0.66% per month."
+pattern = [nlp.make_doc(text) for text in terminology_list]
+matcher.add('TerminologyList', None, *pattern)
+
+sentence = "housing loan"
 
 doc = nlp(u"'%s'" %sentence)
 matches = matcher(doc)
@@ -71,6 +74,17 @@ doc1 = nlp(u"'%s'" %sentence)
 
 for ent in doc1.ents:
     print(doc, ent.text, ent.start_char, ent.end_char, ent.label_)
+
+# ---------------------------------------------------------------------------------------------
+# WORD VECTOR:
+# def most_similar(word):
+#      by_similarity = sorted(word.vocab, key=lambda w: word.similarity(w), reverse=True)
+#      return [w.orth_ for w in by_similarity[:10]]
+
+
+# # terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
+# # for word in terminology_list:
+# #     print(most_similar(nlp.vocab[u"%s" %word]))
 
 # ---------------------------------------------------------------------------------------------
 # matcher = Matcher(nlp.vocab)
