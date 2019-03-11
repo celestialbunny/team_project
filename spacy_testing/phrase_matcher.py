@@ -13,7 +13,10 @@ terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car 
 pattern = [nlp.make_doc(text) for text in terminology_list]
 matcher.add('TerminologyList', None, *pattern)
 
-doc = nlp(u"You may also consider getting an islamic personal loan if the rates are better than standard personal loan.")
+sentence = "personal loans in Malaysia"
+
+doc = nlp(u"'%s'" %sentence)
+
 matches = matcher(doc)
 for match_id, start, end in matches:
     string_id = nlp.vocab.strings[match_id]  # get string representation
@@ -21,6 +24,10 @@ for match_id, start, end in matches:
     # print(match_id, string_id, start, end, span.text, span.start_char, span.end_char)
     print(doc, span.text, span.start_char, span.end_char)
 
+doc1 = nlp(u"'%s'" %sentence)
+
+for ent in doc1.ents:
+    print(doc1, ent.text, ent.start_char, ent.end_char, ent.label_)
 # ---------------------------------------------------------------------------------------------
 # matcher = Matcher(nlp.vocab)
 # # add match ID "HelloWorld" with no callback and one pattern
@@ -35,7 +42,3 @@ for match_id, start, end in matches:
 #     print(match_id, string_id, start, end, span.text)
 
 # nlp = spacy.load('en_core_web_sm')
-# doc = nlp(u'Apple is looking at buying U.K. startup for $1 billion')
-
-# for ent in doc.ents:
-#     print(doc, ent.text, ent.start_char, ent.end_char, ent.label_)
