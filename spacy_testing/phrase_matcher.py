@@ -8,59 +8,46 @@ nlp = spacy.load('en_core_web_sm')
 # initialise the Matcher with a vocab.
 # the matcher must always share the same vocab with the documents it will operate on
 matcher = PhraseMatcher(nlp.vocab)
-terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
+# terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
 
-# terminology_list = [
-#     'personal loan',
-#     'Personal Loan',
-#     'Personal loans',
-#     'Personal Loans',
-#     'personal loans',
-#     'personal financing',
-#     'Personal financing',
-#     'Personal Financing',
-#     'housing loan',
-#     'housing loans',
-#     'Housing Loan',
-#     'Housing Loans',
-#     'home loan',
-#     'home loans',
-#     'Home loan',
-#     'Home Loan',
-#     'Home Loans',
-#     'property loan',
-#     'property loans',
-#     'Property Loan',
-#     'Property Loans',
-#     'car loan',
-#     'car loans',
-#     'Car Loan',
-#     'Car Loans',
-#     'Car financing',
-#     'islamic personal loan',
-#     'islamic personal loans',
-#     'Islamic Personal Loan',
-#     'Islamic Personal Loans',
-#     'Islamic Financing Loan',
-#     'Islamic Financing Loans',
-#     'Islamic Loans',
-#     'Islamic loans',
-#     'Islamic loan',
-#     'Islamic Loan',
-#     'small business loan',
-#     'small business loans',
-#     'Small Business Loan',
-#     'Small Business Loans',
-#     'business loan',
-#     'business loans',
-#     'Business Loan',
-#     'Business Loans',
-#     ]
+terminology_list = [
+    'personal loan',
+    'personal loans',
+    'personal financing',
+    'personal financings',
+    'housing loan',
+    'housing loans',
+    'home loan',
+    'home loans',
+    'house loan',
+    'house loans',
+    'property loan',
+    'property loans',
+    'car loan',
+    'car loans',
+    'auto loan',
+    'auto loans',
+    'auto financing',
+    'hire purchase',
+    'car financing',
+    'vehicle financing',
+    'islamic personal loan',
+    'islamic personal loans',
+    'islamic loan',
+    'islamic loans',
+    'islamic personal loans',
+    'small business loan',
+    'small business loans',
+    'business loan',
+    'business loans',
+    'sme loan',
+    'sme loans',
+    ]
 
 pattern = [nlp.make_doc(text) for text in terminology_list]
 matcher.add('TerminologyList', None, *pattern)
 
-sentence = "housing loan"
+sentence = "There are 2 types of car loans: conventional car loan and islamic car loan."
 
 doc = nlp(u"'%s'" %sentence)
 matches = matcher(doc)
