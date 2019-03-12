@@ -359,3 +359,321 @@ TRAIN_DATA = [
     }),
 
     
+    ("Personal loans can be used not only to bridge personal cash needs, but also small business needs.",
+    {
+        'entities': [(1, 15, 'FSERV')
+        ]
+    }),
+    ("Personal loans can range from as little as RM1,000 to over RM150,000 or more.",
+    {
+        'entities': [
+            (1, 15, 'FSERV'),
+            (31, 51, 'CARDINAL')
+        ]
+    }),
+    ("Most auto loan have an average interest rate of 3-4%",
+    {
+        'entities': [
+            (6, 15, 'FSERV'),
+            (49, 53, 'PERCENT')
+        ]
+    }),
+
+    ("my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.",
+    {
+        'entities': [
+            (11, 20, 'FSERV'),
+            (5, 10, 'ORDINAL'),
+            (28, 33, 'ORDINAL'),
+            (57, 61, 'PERCENT'),
+            (127, 132, 'DATE')
+        ]
+    }),
+
+    ("The advantage of MAPEX is that it’s a one-stop centre for buyers to select and choose a wide range of properties that they’re looking for",
+    {
+        'entities': [
+            (18, 23, 'GPE'),
+            (39, 42, 'CARDINAL')
+        ]
+    }),
+
+    ("Compare all kinds of home loan offers in Malaysia and finance your dream home.' home loan",
+    {
+        'entities': [
+            (22, 31,'FSERV'),
+            (42, 50, 'GPE')
+        ]
+    }),
+
+    ("Shariah-compliant car financing based on the principles of Ijarah Thumma Al-Bai'which means lease followed with sale.",
+    {
+        'entities': [
+            (19, 32, 'FSERV'),
+            (60, 86, 'PERSON')
+        ]
+    }),
+
+    ("Get the best rates using our Malaysia Loan Calculator and apply for Car Loans. It's quick, easy and convenient!",
+    {
+        'entities': [
+            (30, 38, 'GPE'),
+            (39, 54, 'PRODUCT'),
+            (69, 78, 'WORK_OF_ART')
+        ]
+    }),
+
+    ("Increasing the tenure to 40 years will further add to the total cost of financing without significant improvements in the affordability of one’s monthly instalment.",
+    {
+        'entities': [
+            (26, 34, 'DATE'),
+            (146, 153, 'DATE')
+        ]
+    }),
+
+    ("The lower monthly repayments, made possible by longer financing tenures, may lead borrowers to over-estimate their ability to service the financing, and take a larger home loan than they can really afford",
+    {
+        'entities': [
+            (168, 177, 'FSERV'),
+            (11, 18, 'DATE')
+        ]
+    }),
+
+    ("auto loans & car financing from Bank of America.",
+    {
+        'entities': [
+            (1, 11, 'FSERV'),
+            (14, 27, 'FSERV'),
+            (33, 48, 'ORG')
+        ]
+    }),
+    ("High business loan amount with guaranteed lowest possible interest rate.",
+    {
+        'entities': [
+            (6, 19, 'FSERV')
+        ]
+    }),
+    ("Finance your business with our range of SME loans and schemes designed specifically to help you grow.",
+    {
+        'entities': [
+            (41, 50, 'FSERV'),
+            (41, 44, 'ORG')
+        ]
+    }),
+    ("business loans from financial institutions to small and medium businesses.",
+    {
+        'entities': [
+            (1, 15, 'FSERV')
+        ]
+    }),
+    ("During this six month home ownership campaign which started on Jan 1, 2019, the government has allowed a waiver on stamp duties between the buyer and developer when the SPA is signed and when the buyer takes a bank loan",
+    {
+        'entities': [
+            (8, 22, 'DATE'),
+            (64, 75, 'DATE'),
+            (170, 173, 'ORG')
+        ]
+    }),
+    ("THE Association of Banks in Malaysia (ABM) would like to advise bank customers to initiate contact with their respective banks promptly when genuinely faced with difficulties in repaying their loans.",
+    {
+        'entities': [
+            (1, 25, 'ORG'),
+            (29, 37, 'GPE'),
+            (39, 42, 'LAW')
+        ]
+    }),
+    ("If the bank customer is not satisfied with the decision of the financial institution, they can refer the matter to BNMTELELINK or seek assistance from the Credit Counselling and Debt Management Agency (AKPK), which may be able to provide aid via financial counselling and restructuring repayments through its debt management plan.",
+    {
+        'entities': [
+            (152, 201, 'ORG'),
+            (203, 207, 'ORG'),
+        ]
+    }),
+    ("Get Public Bank property loan with 3.65% rate. Enjoy zero entry cost packages and available overdraft facilities.",
+    {
+        'entities': [
+            (17, 30, 'FSERV'),
+            (36, 41, 'PERCENT'),
+            (54, 58, 'CARDINAL')
+        ]
+    }),
+    ("Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!",
+    {
+        'entities': [
+            (22, 44, 'FSERV'),
+            (30, 44, 'FSERV'),
+            (76, 97, 'FSERV'),
+            (84, 97, 'FSERV'),
+            (48, 56, 'GPE'),
+            (128, 132, 'PERCENT'),
+        ]
+    }),
+    ("Personal Financing Fulfill what you desire with RHB Personal Financing.",
+    {
+        'entities': [
+            (1, 19, 'FSERV'),
+            (49, 52, 'ORG')
+        ]
+    }),
+    ("Banks have been flooded with car loan applications ever since the Goods and Services Tax (GST) was zero-rated in June, as consumers rush to take advantage of the three-month tax holiday.",
+    {
+        'entities': [
+            (30, 38, 'FSERV'),
+            (100, 104, 'CARDINAL'),
+            (114, 118, 'DATE'),
+            (163, 174, 'DATE')
+        ]
+    }),
+    ("All six saw an increase in vehicle financing applications during the month and most of them say their approval rates have also improved.",
+    {
+        'entities': [
+            (28, 45, 'FSERV'),
+            (5, 8, 'CARDINAL'),
+            (66, 75, 'DATE')
+        ]
+    }),
+    ("Banks acknowledge that demand for car financing has indeed shot up since June.",
+    {
+        'entities': [
+            (35, 48, 'FSERV'),
+            (74, 78, 'DATE')
+        ]
+    }),
+    ("Our commitment and resolve to improve cost efficiencies especially in a subdued environment has resulted in the group achieving a CTI of 51.6% with positive JAWS of circa 12%",
+    {
+        'entities': [
+            (134, 134, 'ORG'),
+            (138, 143, 'PERCENT'),
+            (158, 162, 'ORG'),
+            (172, 175, 'PERCENT')
+        ]
+    }),
+    ("Find personal finance top news, headlines, and videos from credit cards, mortgages, retirement, savings, taxes, and more from CNBC's Personal Finance.'",
+    {
+        'entities': [
+            (127, 131, 'ORG')
+        ]
+    }),
+    ("You can now own your dream car with our auto financing package that is flexible and competitive in terms of interest rates",
+    {
+        'entities': [
+            (41, 55, 'FSERV')
+        ]
+    }),
+    ("Choose a hire purchase loan which is suitable to your needs.",
+    {
+        'entities': [
+            (10, 23, 'FSERV')
+        ]
+    }),
+    ("Here are five things you can do with a personal loan and why getting one can actually reduce a lot of stress in your life.",
+    {
+        'entities': [
+            (41, 54, 'FSERV'),
+            (11, 15, 'CARDINAL'),
+        ]
+    }),
+    ("Learn and explore more features and eligibility of small business loans in Malaysia",
+    {
+        'entities': [
+            (52, 72, 'FSERV'),
+            (58, 72, 'FSERV'),
+            (76, 84, 'GPE')
+        ]
+    }),
+    ("Look for a comprehensive suite of conventional business loan and Islamic financing solutions to suit your needs.",
+    {
+        'entities': [
+            (48, 61, 'FSERV'),
+            (66, 73, 'NORP'),
+        ]
+    }),
+    ("Estimate your monthly house loan repayments using home loan calculator",
+    {
+        'entities': [
+            (22, 33, 'FSERV'),
+            (51, 60, 'FSERV'),
+            (15, 22, 'DATE')
+        ]
+    }),
+    ("The minimum loan amount is RM 5,000.",
+    {
+        'entities': [
+            (28, 36, 'MONEY'),
+        ]
+    }),
+    ("To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.",
+    {
+        'entities': [
+            (23, 83, 'ORG'),
+            (166, 172, 'CARDINAL'),
+            (182, 207, 'DATE'),
+            (219, 229, 'ORG'),
+            (264, 270, 'CARDINAL')
+        ]
+    }),
+    ("Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",
+    {
+        'entities': [
+            (47, 64, 'LAW'),
+            (66, 79, 'FSERV'),
+            (93, 112, 'ORG'),
+            (114, 117, 'ORG'),
+            (259, 266, 'NORP')
+        ]
+    }),
+    ("The campaign is jointly organised by Rehda and the Housing and Local Government Ministry.",
+    {
+        'entities': [
+            (48, 89, 'ORG'),
+        ]
+    }),
+    ("Getting a home loan is not hard nowadays as banks recognize the need for more flexible borrowing terms.",
+    {
+        'entities': [
+            (11, 20, 'FSERV')
+        ]
+    }),
+    (" Sometimes referred to as a hire purchase, car loans are usually taken out to fund, as the name indicates, the purchase of a car.",
+    {
+        'entities': [
+            (28, 41, 'FSERV')
+        ]
+    }),
+    ("Syariah compliant loans are basically the same as conventional personal loans except that they adhere to Islamic principles of profit sharing.",
+    {
+        'entities': [
+            (64, 78, 'FSERV'),
+            (1, 8, 'PERSON'),
+            (106, 113, 'NORP')
+        ]
+    }),
+    ("people often take personal loans on to purchase luxury items such as a new mobile phone or household items.",
+    {
+        'entities': [
+            (19, 33, 'FSERV')
+        ]
+    }),
+    ("There are 2 types of car loans: conventional car loan and islamic car loan.",
+    {
+        'entities': [
+            (22, 31, 'FSERV'),
+            (46, 54, 'FSERV'),
+            (67, 75, 'FSERV')
+        ]
+    }),
+    ("sale and purchase agreement or bank loan agreement?",
+    {
+        'entities': []
+    }),
+    ("Finding Government Grants for Malaysian Small Businesses .",
+    {
+        'entities': [
+        ]
+    }),
+    ("Learn something new about money, debt management and personal finance everyday. Check out news that affects your wallet.",
+    {
+        'entities': [
+        ]
+    })
+]
