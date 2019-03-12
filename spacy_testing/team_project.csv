@@ -1,0 +1,202 @@
+sentence,ent.text,ent.start_char,ent.end_char,ent.label_
+Many non-muslims have islamic personal loan as well,islamic personal loan,22,43,FSERV
+Get personal financing solutions through MBSB's attractive packages that suit your financing needs.,personal financing,5,23,FSERV
+Get personal financing solutions through MBSB's attractive packages that suit your financing needs.,MBSB,42,46,ORG
+No collateral business loan for working capital purposes with fast loan approval time and low interest rates for SME entrepreneurs.,business loan,14,27,FSERV
+No collateral business loan for working capital purposes with fast loan approval time and low interest rates for SME entrepreneurs.,SME,114,117,ORG
+"Get your car loan, home loan or personal loan approved within 24 hours and enjoy interest rate as low as 8.18% p.a.",car loan,9,17,FSERV
+"Get your car loan, home loan or personal loan approved within 24 hours and enjoy interest rate as low as 8.18% p.a.",home loan,19,28,FSERV
+"Get your car loan, home loan or personal loan approved within 24 hours and enjoy interest rate as low as 8.18% p.a.",personal loan,32,45,FSERV
+"Get your car loan, home loan or personal loan approved within 24 hours and enjoy interest rate as low as 8.18% p.a.",24 hours,63,71,TIME
+"Get your car loan, home loan or personal loan approved within 24 hours and enjoy interest rate as low as 8.18% p.a.",as low as 8.18%,96,111,PERCENT
+Check out the list of housing loan offered by this bank!,housing loan,22,34,FSERV
+Check out the list of small business loan offered by this bank!,small business loan,22,41,FSERV
+Getting a car loan approved is much easier than home loan.,car loan,10,18,FSERV
+Getting a car loan approved is much easier than home loan.,home loan,48,57,FSERV
+He will need a small business loan to kickstart his business.,small business loan,15,34,FSERV
+You may also consider getting an islamic personal loan if the rates are better than standard personal loan.,islamic personal loan,33,54,FSERV
+You may also consider getting an islamic personal loan if the rates are better than standard personal loan.,personal loan,93,106,FSERV
+Best car loan in Malaysia.,car loan,6,14,FSERV
+Best car loan in Malaysia.,Malaysia,18,26,GPE
+Did you know that Google and Apple has been investing in the lastest car technology and are finding good business loan?,business loan,106,119,FSERV
+Did you know that Google and Apple has been investing in the lastest car technology and are finding good business loan?,Google,19,25,ORG
+Did you know that Google and Apple has been investing in the lastest car technology and are finding good business loan?,Apple,30,35,ORG
+"If you are currently in the midst of home loan survey to buy the house of your dreams, here are six things you should consider before making what could be the biggest financial decision of your life.",home loan,38,47,FSERV
+"If you are currently in the midst of home loan survey to buy the house of your dreams, here are six things you should consider before making what could be the biggest financial decision of your life.",six,97,100,CARDINAL
+"A home loan application involves professional and government-regulated processes such as preparation and disbursement of loan agreement, payment of stamp duty and processing by the bank, just to name a few",home loan,3,12,FSERV
+"You’re in a mad rush to get your hands on some much-needed cash, when someone suggests a personal loan as a viable option.",personal loan,90,103,FSERV
+Your loan rejection could serve as a much-needed eye opener to help you fix possible red flags on your current financial status. Understanding the cause or causes of rejection might improve your chances for getting your next personal loan application approved.,personal loan,226,239,FSERV
+"All of your credit card debt, loans, overdrafts, and other borrowings from authorised financial institutions are on file at the Credit Bureau of Bank Negara Malaysia under the Central Credit Reference Information System (CCRIS).",the Central Credit Reference Information System (CCRIS),73,227,ORG
+Looking for affordable car loan? Maybank has made it very affordable to own a car with very low initial repayments and low salary requirements',car loan,24,32,FSERV
+Looking for affordable car loan? Maybank has made it very affordable to own a car with very low initial repayments and low salary requirements',Maybank,34,41,ORG
+Basic conventional term and home loan with option to deposit and withdraw excess cash and zero monthly maintenance fee,home loan,29,38,FSERV
+Basic conventional term and home loan with option to deposit and withdraw excess cash and zero monthly maintenance fee,zero,91,95,CARDINAL
+Basic conventional term and home loan with option to deposit and withdraw excess cash and zero monthly maintenance fee,monthly,96,103,DATE
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",property loans,145,159,FSERV
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",Malaysia,12,20,GPE
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",Australia,52,61,GPE
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",New Zealand,63,74,GPE
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",South Korea,79,90,GPE
+"Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",the Asia-Pacific region,115,138,LOC
+"Banks are exposed to property-related risks, although real estate prices are decreasing in such hot spots as Australia and Hong Kong, and posting slower growth in other markets.",Australia,110,119,GPE
+"Banks are exposed to property-related risks, although real estate prices are decreasing in such hot spots as Australia and Hong Kong, and posting slower growth in other markets.",Hong Kong,124,133,GPE
+Plan ahead with this Shariah compliant home loan from AmBank Islamic,home loan,40,49,FSERV
+Plan ahead with this Shariah compliant home loan from AmBank Islamic,AmBank Islamic,55,69,ORG
+Flexible personal financing plan with no hidden fees or charges.,personal financing,10,28,FSERV
+Going cashless is easy with the new GrabPay!,GrabPay,37,44,PRODUCT
+"Today’s home loan application and approval process can be tedious, with so many possibilities of issues springing up and causing your application to end up in the rejected pile.",home loan,9,18,FSERV
+"Today’s home loan application and approval process can be tedious, with so many possibilities of issues springing up and causing your application to end up in the rejected pile.",Today,1,6,DATE
+"AEON i-Cash Personal Financing has approved financing amount of up to RM 100,000 and interest rates as low as 0.66% per month.","RM 100,000",71,81,MONEY
+"AEON i-Cash Personal Financing has approved financing amount of up to RM 100,000 and interest rates as low as 0.66% per month.", as low as 0.66% per month,101,116,PERCENT
+"Most often than not, home loan applications get rejected for this reason – having income insufficiency and instability.",home loan,22,31,FSERV
+"If your records show that you are an irregular paymaster, the bank looking at your report may give you a low credit score, making the chances of your home loan application being rejected high.",home loan,151,160,FSERV
+Debt-service-ratio (DSR) is a ratio of your net income and your monthly credit commitment,DSR,21,24,ORG
+Debt-service-ratio (DSR) is a ratio of your net income and your monthly credit commitment,monthly,65,72,DATE
+"The calculation of DSR is done by comparing your total net income (gross income minus EPF contribution and income tax) against your total credit commitments, such as monthly repayments for your hire purchase loan, personal loan, study loan, credit card, or other home loan.",personal loan,215,228,FSERV
+"The calculation of DSR is done by comparing your total net income (gross income minus EPF contribution and income tax) against your total credit commitments, such as monthly repayments for your hire purchase loan, personal loan, study loan, credit card, or other home loan.",home loan,264,273,FSERV
+"The calculation of DSR is done by comparing your total net income (gross income minus EPF contribution and income tax) against your total credit commitments, such as monthly repayments for your hire purchase loan, personal loan, study loan, credit card, or other home loan.",DSR,20,23,ORG
+"The calculation of DSR is done by comparing your total net income (gross income minus EPF contribution and income tax) against your total credit commitments, such as monthly repayments for your hire purchase loan, personal loan, study loan, credit card, or other home loan.",monthly,167,174,DATE
+"The interest saved by the purchasers can then be used to expedite the full repayment of the home loan and utilised for the property management service fees so that the environment will be well managed, unlike what we witness in the People’s Housing Project schemes",home loan,93,102,FSERV
+"The interest saved by the purchasers can then be used to expedite the full repayment of the home loan and utilised for the property management service fees so that the environment will be well managed, unlike what we witness in the People’s Housing Project schemes",the People’s Housing Project,229,257,ORG
+Compare and apply for the best Islamic home loans.,home loans,40,50,FSERV
+Compare and apply for the best Islamic home loans.,Islamic,32,39,NORP
+"Get your personal financing approved up to RM200,000",personal financing,10,28,FSERV
+"Unlike home loan, personal financing is usually unsecured, which means that you can borrow money without providing the lender (the bank) any form of security or asset",home loan,8,17,FSERV
+"Unlike home loan, personal financing is usually unsecured, which means that you can borrow money without providing the lender (the bank) any form of security or asset",personal financing ,19,37,FSERV
+Renault in talks over new alliance body with Nissan and Mitsubishi,Renault,1,8,ORG
+Renault in talks over new alliance body with Nissan and Mitsubishi,Nissan,46,52,ORG
+Renault in talks over new alliance body with Nissan and Mitsubishi,Mitsubishi,57,67,ORG
+Use our business loan calculator to check your loan amount and monthly payments.,business loan,9,22,FSERV
+Use our business loan calculator to check your loan amount and monthly payments.,monthly,64,71,DATE
+Business cash loan ! No collateral needed,,,,
+UOB BIZMoney Business Loan for SMEs and Businesses ,Business Loan,14,27,FSERV
+UOB BIZMoney Business Loan for SMEs and Businesses ,UOB,1,4,ORG
+UOB BIZMoney Business Loan for SMEs and Businesses ,BIZMoney,5,13,PRODUCT
+No collateral business loan for working capital purposes with fast loan approval time and low interest rates for SME entrepreneurs,business loan,15,28,FSERV
+No collateral business loan for working capital purposes with fast loan approval time and low interest rates for SME entrepreneurs,SME,114,117,ORG
+"Comprehensive Islamic car loan with up to 90% margin of financing, rebate for early settlement and fixed profit rate for the entire tenure.",car loan,23,31,FSERV
+"Comprehensive Islamic car loan with up to 90% margin of financing, rebate for early settlement and fixed profit rate for the entire tenure.",Islamic,15,22,NORP
+"Comprehensive Islamic car loan with up to 90% margin of financing, rebate for early settlement and fixed profit rate for the entire tenure.",90%,43,46,PERCENT
+"Simple application car loan with easy payment options, low interest, and a high maximum loan amount",car loan,20,28,FSERV
+Shariah-approved vehicle financing to help you own the car you want. Applicants with Biro Perkhidmatan Angkasa facility get to enjoy special low rates!,vehicle financing,18,35,FSERV
+Shariah-approved vehicle financing to help you own the car you want. Applicants with Biro Perkhidmatan Angkasa facility get to enjoy special low rates!,Biro Perkhidmatan Angkasa,86,111,ORG
+A simple and straightforward car loan from BSN ,car loan,30,38,FSERV
+A simple and straightforward car loan from BSN ,BSN,44,47,ORG
+"Whether you are pining after a chic speedster for yourself or looking for a lorry to make deliveries, we have the right vehicle financing package for you",vehicle financing,121,138,FSERV
+"Auto financing, also known as car finance, car financing or auto finance, ",car financing,44,57,FSERV
+iMoney has provided me with valuable information on the lowest monthly repayments for Personal Loans.,Personal Loans,87,101,FSERV
+iMoney has provided me with valuable information on the lowest monthly repayments for Personal Loans.,iMoney,1,7,ORG
+iMoney has provided me with valuable information on the lowest monthly repayments for Personal Loans.,monthly,64,71,DATE
+"Approved loan amount of up to RM250,000.",,,,
+Small business loans to suit your short term financing needs,business loans,7,21,FSERV
+ Business loan interest rates range from a low 3% from a traditional bank to all the way up to 150% from alternative lenders.,Busines loan,2,15,FSERV
+ Business loan interest rates range from a low 3% from a traditional bank to all the way up to 150% from alternative lenders., a low 3%,42,50,PERCENT
+ Business loan interest rates range from a low 3% from a traditional bank to all the way up to 150% from alternative lenders.,up to 150%,90,100,PERCENT
+Public Bank offers a full range of loan packages to suit your financing needs,Public Bank,1,12,ORG
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",home loan,9,18,FSERV
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",housing loan,79,91,FSERV
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",20+,24,27,QUANTITY
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",Malaysia,41,49,GPE
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",monthly,116,123,DATE
+"Compare home loan from 20+ top banks in Malaysia, calculate and find the best housing loan interest rates with low monthly repayment -10 Mar 2019.",Mar 2019,138,146,DATE
+"Personal loans can be used not only to bridge personal cash needs, but also small business needs.",personal loans,1,15,FSERV
+"Personal loans can range from as little as RM1,000 to over RM150,000 or more.",personal loans,1,15,FSERV
+"Personal loans can range from as little as RM1,000 to over RM150,000 or more.","as little as RM1,000",31,51,CARDINAL
+Most auto loan have an average interest rate of 3-4%,auto loan,6,15,FSERV
+Most auto loan have an average interest rate of 3-4%,3-4%,49,53,PERCENT
+my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.,home loan,11,20,FSERV
+my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.,first,5,10,ORDINAL
+The advantage of MAPEX is that it’s a one-stop centre for buyers to select and choose a wide range of properties that they’re looking for,MAPEX,18,23,GPE
+The advantage of MAPEX is that it’s a one-stop centre for buyers to select and choose a wide range of properties that they’re looking for,one,39,42,CARDINAL
+sale and purchase agreement or bank loan agreement?,,,,
+my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.,first,28,33,ORDINAL
+my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.,100%,57,61,PERCENT
+my1 first home loan offers first time home buyers up to 100% financing and low interest rates. Find out more and apply online today.,today,127,132,DATE
+Compare all kinds of home loan offers in Malaysia and finance your dream home.' home loan,home loan,22,31,FSERV
+Compare all kinds of home loan offers in Malaysia and finance your dream home.' home loan,,42,50,GPE
+Shariah-compliant car financing based on the principles of Ijarah Thumma Al-Bai'which means lease followed with sale.,car financing,19,32,FSERV
+Shariah-compliant car financing based on the principles of Ijarah Thumma Al-Bai'which means lease followed with sale.,Ijarah Thumma Al-Bai,60,86,PERSON
+"Get the best rates using our Malaysia Loan Calculator and apply for Car Loans. It's quick, easy and convenient!",Malaysia,30,38,GPE
+"Get the best rates using our Malaysia Loan Calculator and apply for Car Loans. It's quick, easy and convenient!",Loan Calculator,39,54,PRODUCT
+"Get the best rates using our Malaysia Loan Calculator and apply for Car Loans. It's quick, easy and convenient!",Car Loans,69,78,WORK_OF_ART
+Increasing the tenure to 40 years will further add to the total cost of financing without significant improvements in the affordability of one’s monthly instalment.,40 years,26,34,DATE
+Increasing the tenure to 40 years will further add to the total cost of financing without significant improvements in the affordability of one’s monthly instalment.,monthly,146,153,DATE
+"The lower monthly repayments, made possible by longer financing tenures, may lead borrowers to over-estimate their ability to service the financing, and take a larger home loan than they can really afford",home loan,168,177,FSERV
+"The lower monthly repayments, made possible by longer financing tenures, may lead borrowers to over-estimate their ability to service the financing, and take a larger home loan than they can really afford",monthly,11,18,DATE
+auto loans & car financing from Bank of America.,auto loans,1,11,FSERV
+auto loans & car financing from Bank of America.,car financing,14,27,FSERV
+auto loans & car financing from Bank of America.,Bank of America,33,48,ORG
+High business loan amount with guaranteed lowest possible interest rate.,business loan,6,19,FSERV
+Finance your business with our range of SME loans and schemes designed specifically to help you grow.,SME loans,41,50,FSERV
+Finance your business with our range of SME loans and schemes designed specifically to help you grow.,SME loans,41,44,ORG
+business loans from financial institutions to small and medium businesses.,business loans,1,15,FSERV
+Finding Government Grants for Malaysian Small Businesses .,,,,
+"During this six month home ownership campaign which started on Jan 1, 2019, the government has allowed a waiver on stamp duties between the buyer and developer when the SPA is signed and when the buyer takes a bank loan",this six month,8,22,DATE
+"During this six month home ownership campaign which started on Jan 1, 2019, the government has allowed a waiver on stamp duties between the buyer and developer when the SPA is signed and when the buyer takes a bank loan","Jan 1, 2019",64,75,DATE
+"During this six month home ownership campaign which started on Jan 1, 2019, the government has allowed a waiver on stamp duties between the buyer and developer when the SPA is signed and when the buyer takes a bank loan",SPA,170,173,ORG
+THE Association of Banks in Malaysia (ABM) would like to advise bank customers to initiate contact with their respective banks promptly when genuinely faced with difficulties in repaying their loans.,THE Association of Banks,1,25,ORG
+THE Association of Banks in Malaysia (ABM) would like to advise bank customers to initiate contact with their respective banks promptly when genuinely faced with difficulties in repaying their loans.,Malaysia,29,37,GPE
+THE Association of Banks in Malaysia (ABM) would like to advise bank customers to initiate contact with their respective banks promptly when genuinely faced with difficulties in repaying their loans.,ABM,39,42,LAW
+"If the bank customer is not satisfied with the decision of the financial institution, they can refer the matter to BNMTELELINK or seek assistance from the Credit Counselling and Debt Management Agency (AKPK), which may be able to provide aid via financial counselling and restructuring repayments through its debt management plan.",the Credit Counselling and Debt Management Agency,152,201,ORG
+"If the bank customer is not satisfied with the decision of the financial institution, they can refer the matter to BNMTELELINK or seek assistance from the Credit Counselling and Debt Management Agency (AKPK), which may be able to provide aid via financial counselling and restructuring repayments through its debt management plan.",AKPK,203,207,ORG
+Get Public Bank property loan with 3.65% rate. Enjoy zero entry cost packages and available overdraft facilities. ,property loan,17,30,FSERV
+Get Public Bank property loan with 3.65% rate. Enjoy zero entry cost packages and available overdraft facilities. ,3.65%,36,41,PERCENT
+Get Public Bank property loan with 3.65% rate. Enjoy zero entry cost packages and available overdraft facilities. ,zero,54,58,CARDINAL
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,islamic personal loans,22,44,FSERV
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,personal loans,30,44,FSERV
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,islamic personal loans,76,97,FSERV
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,personal loans,84,97,FSERV
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,Malaysia,48,56,GPE
+Looking for the best islamic personal loans in Malaysia? Compare and get a islamic personal loan with interest rates as low as 3.2%!,3.20%,128,132,PERCENT
+Personal Financing Fulfill what you desire with RHB Personal Financing.,personal financing,1,19,FSERV
+Personal Financing Fulfill what you desire with RHB Personal Financing.,RHB ,49,52,ORG
+"Banks have been flooded with car loan applications ever since the Goods and Services Tax (GST) was zero-rated in June, as consumers rush to take advantage of the three-month tax holiday.",car loan,30,38,FSERV
+"Banks have been flooded with car loan applications ever since the Goods and Services Tax (GST) was zero-rated in June, as consumers rush to take advantage of the three-month tax holiday.",zero,100,104,CARDINAL
+"Banks have been flooded with car loan applications ever since the Goods and Services Tax (GST) was zero-rated in June, as consumers rush to take advantage of the three-month tax holiday.",June,114,118,DATE
+"Banks have been flooded with car loan applications ever since the Goods and Services Tax (GST) was zero-rated in June, as consumers rush to take advantage of the three-month tax holiday.",three-month,163,174,DATE
+All six saw an increase in vehicle financing applications during the month and most of them say their approval rates have also improved.,vehicle financing,28,45,FSERV
+All six saw an increase in vehicle financing applications during the month and most of them say their approval rates have also improved.,six,5,8,CARDINAL
+All six saw an increase in vehicle financing applications during the month and most of them say their approval rates have also improved.,the month,66,75,DATE
+Banks acknowledge that demand for car financing has indeed shot up since June.,car financing,35,48,FSERV
+Banks acknowledge that demand for car financing has indeed shot up since June.,June,74,78,DATE
+Our commitment and resolve to improve cost efficiencies especially in a subdued environment has resulted in the group achieving a CTI of 51.6% with positive JAWS of circa 12%,CTI,131,134,ORG
+Our commitment and resolve to improve cost efficiencies especially in a subdued environment has resulted in the group achieving a CTI of 51.6% with positive JAWS of circa 12%,51.60%,138,143,PERCENT
+Our commitment and resolve to improve cost efficiencies especially in a subdued environment has resulted in the group achieving a CTI of 51.6% with positive JAWS of circa 12%,JAWS,158,162,ORG
+Our commitment and resolve to improve cost efficiencies especially in a subdued environment has resulted in the group achieving a CTI of 51.6% with positive JAWS of circa 12%,12%,172,175,PERCENT
+"Find personal finance top news, headlines, and videos from credit cards, mortgages, retirement, savings, taxes, and more from CNBC's Personal Finance.'",CNBC,127,131,ORG
+You can now own your dream car with our auto financing package that is flexible and competitive in terms of interest rates,auto financing,41,55,FSERV
+Choose a hire purchase loan which is suitable to your needs.,hire purchase,10,23,FSERV
+Here are five things you can do with a personal loan and why getting one can actually reduce a lot of stress in your life.,personal loan,41,54,FSERV
+Here are five things you can do with a personal loan and why getting one can actually reduce a lot of stress in your life.,five,11,15,CARDINAL
+"Learn something new about money, debt management and personal finance everyday. Check out news that affects your wallet.",,,,
+Learn and explore more features and eligibility of small business loans in Malaysia,small business loans,52,72,FSERV
+Learn and explore more features and eligibility of small business loans in Malaysia,business loans,58,72,FSERV
+Learn and explore more features and eligibility of small business loans in Malaysia,Malaysia,76,84,GPE
+Look for a comprehensive suite of conventional business loan and Islamic financing solutions to suit your needs.,business loans,48,61,FSERV
+Look for a comprehensive suite of conventional business loan and Islamic financing solutions to suit your needs.,Islamic,66,73,NORP
+Estimate your monthly house loan repayments using home loan calculator,house loan,22,33,FSERV
+Estimate your monthly house loan repayments using home loan calculator,home loan,51,60,FSERV
+Estimate your monthly house loan repayments using home loan calculator,monthly,15,22,DATE
+"The minimum loan amount is RM 5,000.","RM 5,000",28,36,MONEY
+"To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.",the National Property Information Centre,23,83,ORG
+"To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.","30,115",166,172,CARDINAL
+"To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.",the third quarter of 2018,182,207,DATE
+"To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.",RM19.54bil,219,229,ORG
+"To put things into perspective, data from the National Property Information Centre revealed that the number of unsold houses in the country reached a record high of 30,115 units in the third quarter of 2018, valued at RM19.54bil, which was a 48.35% increase from 20,304 units in the previous corresponding period.","20,304",264,270,CARDINAL
+"Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",Base Lending Rate,47,64,LAW
+"Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",islamic loans,66,79,FSERV
+"Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",Base Financing Rate,93,112,ORG
+"Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",BFR,114,117,ORG
+"Unlike conventional loans, which are based on Base Lending Rate, islamic loans are based on Base Financing Rate (BFR) which the bank can actually adjust based on prevailing market conditions but not more than the ceiling rate, which is the maximum profit an Islamic finance provider will earn.",Islamic,259,266,NORP
+The campaign is jointly organised by Rehda and the Housing and Local Government Ministry.,Rehda,38,43,GPE
+The campaign is jointly organised by Rehda and the Housing and Local Government Ministry.,the Housing and Local Government Ministry,48,89,ORG
+Getting a home loan is not hard nowadays as banks recognize the need for more flexible borrowing terms.,home loan,11,20,FSERV
+"Sometimes referred to as a hire purchase, car loans are usually taken out to fund, as the name indicates, the purchase of a car.",hire purchase,28,41,FSERV
+"Sometimes referred to as a hire purchase, car loans are usually taken out to fund, as the name indicates, the purchase of a car.",car loans,43,52,FSERV
+Syariah compliant loans are basically the same as conventional personal loans except that they adhere to Islamic principles of profit sharing.,personal loans,64,78,FSERV
+Syariah compliant loans are basically the same as conventional personal loans except that they adhere to Islamic principles of profit sharing.,Syariah,1,8,PERSON
+Syariah compliant loans are basically the same as conventional personal loans except that they adhere to Islamic principles of profit sharing.,Islamic,106,113,NORP
+people often take personal loans on to purchase luxury items such as a new mobile phone or household items.,personal loans,19,33,FSERV
+There are 2 types of car loans: conventional car loan and islamic car loan.,car loans,22,31,FSERV
+There are 2 types of car loans: conventional car loan and islamic car loan.,car loan,46,54,FSERV
+There are 2 types of car loans: conventional car loan and islamic car loan.,car loan,67,75,FSERV

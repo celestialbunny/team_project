@@ -8,15 +8,48 @@ nlp = spacy.load('en_core_web_sm')
 # initialise the Matcher with a vocab.
 # the matcher must always share the same vocab with the documents it will operate on
 matcher = PhraseMatcher(nlp.vocab)
-terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
-# only run nlp.make_doc(text) to speed things up
+# terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
+
+terminology_list = [
+    'personal loan',
+    'personal loans',
+    'personal financing',
+    'personal financings',
+    'housing loan',
+    'housing loans',
+    'home loan',
+    'home loans',
+    'house loan',
+    'house loans',
+    'property loan',
+    'property loans',
+    'car loan',
+    'car loans',
+    'auto loan',
+    'auto loans',
+    'auto financing',
+    'hire purchase',
+    'car financing',
+    'vehicle financing',
+    'islamic personal loan',
+    'islamic personal loans',
+    'islamic loan',
+    'islamic loans',
+    'islamic personal loans',
+    'small business loan',
+    'small business loans',
+    'business loan',
+    'business loans',
+    'sme loan',
+    'sme loans',
+    ]
+
 pattern = [nlp.make_doc(text) for text in terminology_list]
 matcher.add('TerminologyList', None, *pattern)
 
-sentence = "personal loans in Malaysia"
+sentence = "There are 2 types of car loans: conventional car loan and islamic car loan."
 
 doc = nlp(u"'%s'" %sentence)
-
 matches = matcher(doc)
 for match_id, start, end in matches:
     string_id = nlp.vocab.strings[match_id]  # get string representation
@@ -27,13 +60,25 @@ for match_id, start, end in matches:
 doc1 = nlp(u"'%s'" %sentence)
 
 for ent in doc1.ents:
-    print(doc1, ent.text, ent.start_char, ent.end_char, ent.label_)
+    print(doc, ent.text, ent.start_char, ent.end_char, ent.label_)
+
+# ---------------------------------------------------------------------------------------------
+# WORD VECTOR:
+# def most_similar(word):
+#      by_similarity = sorted(word.vocab, key=lambda w: word.similarity(w), reverse=True)
+#      return [w.orth_ for w in by_similarity[:10]]
+
+
+# # terminology_list = ['personal loan', 'personal financing', 'housing loan', 'car loan', 'home loan', 'islamic personal loan', 'small business loan', 'business loan']
+# # for word in terminology_list:
+# #     print(most_similar(nlp.vocab[u"%s" %word]))
+
 # ---------------------------------------------------------------------------------------------
 # matcher = Matcher(nlp.vocab)
 # # add match ID "HelloWorld" with no callback and one pattern
 # pattern = [{'LOWER': 'google'}, {'IS_PUNCT': True}, {'LOWER': 'world'}]
 # matcher.add('HelloWorld', None, pattern)
-# ​
+# 
 # doc = nlp(u'Hello, world! Hello world!')
 # matches = matcher(doc)
 # for match_id, start, end in matches:
