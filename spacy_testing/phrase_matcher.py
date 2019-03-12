@@ -78,7 +78,7 @@ for ent in doc1.ents:
 # # add match ID "HelloWorld" with no callback and one pattern
 # pattern = [{'LOWER': 'google'}, {'IS_PUNCT': True}, {'LOWER': 'world'}]
 # matcher.add('HelloWorld', None, pattern)
-# ​
+# 
 # doc = nlp(u'Hello, world! Hello world!')
 # matches = matcher(doc)
 # for match_id, start, end in matches:
@@ -87,7 +87,3 @@ for ent in doc1.ents:
 #     print(match_id, string_id, start, end, span.text)
 
 # nlp = spacy.load('en_core_web_sm')
-# doc = nlp(u'Apple is looking at buying U.K. startup for $1 billion')
-
-# for ent in doc.ents:
-#     print(doc, ent.text, ent.start_char, ent.end_char, ent.label_)
