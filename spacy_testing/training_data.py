@@ -76,7 +76,7 @@ TRAIN_DATA = [
             (18,26,'GPE')
         ]
     }),
-]
+
     ("Did you know that Google and Apple has been investing in the lastest car technology and are finding good business loan?",
     {
         'entities': [(106,
@@ -105,7 +105,7 @@ TRAIN_DATA = [
             103, 'FSERV')
         ]
     }),
-]
+
     ("Your loan rejection could serve as a much-needed eye opener to help you fix possible red flags on your current financial status. Understanding the cause or causes of rejection might improve your chances for getting your next personal loan application approved.",
     {
         'entities': [(226,
@@ -134,7 +134,7 @@ TRAIN_DATA = [
             (96,103,'DATE'),
         ]
     }),
-]
+
     ("Apart from Malaysia, the ratings agency also named Australia, New Zealand and South Korea as the top countries in the Asia-Pacific region where property loans pose the greatest threat for domestic banks.",
     {
         'entities': [(145,

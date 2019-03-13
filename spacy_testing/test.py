@@ -1,9 +1,11 @@
 import spacy
-input_dir = "C:\\Users\\User\\Desktop\\Back_end\\spacy_testing\\brain_testing"
+input_dir = "C:\\next\\python\\brain5_20"
 nlp = spacy.load(input_dir)
 
 sentences =[
     "They are considering to get a JCL Personal loan",
+    "personal loan, car loan, house loan, personal financing, business loan",
+    "personal loans, car loans, house loans, housing loans, personal financings, business loan",
     "Islamic personal loan",
     "Apple is looking at buying U.K. startup for $1 billion",
     "Compare Malaysian housing loans with our housing loan calculator.",
@@ -17,8 +19,10 @@ sentences =[
 
 # doc = nlp(u'Apple is looking at buying U.K. startup for $1 billion')
 for s in sentences:
-    print(s)
+    # print(s)
     doc = nlp(u"'%s'" %s)
+    for ent in doc.ents:
+        print(ent.text, ent.start_char, ent.end_char, ent.label_)
 # 
 # for s in sentences:
 #     # doc = nlp(u'(s for s in sentences)')
@@ -26,5 +30,3 @@ for s in sentences:
 #     print(doc)
 
 
-for ent in doc.ents:
-    print(ent.text, ent.start_char, ent.end_char, ent.label_)
