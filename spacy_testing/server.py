@@ -19,11 +19,11 @@ LABEL = 'FSERV'
 @plac.annotations(
     model=("en_core_web_sm", "option", "m", str),
     new_model_name=("New model name for model meta.", "option", "nm", str),
-    output_dir=("C:\\Users\\User\\Desktop\\Back_end\\spacy_testing\\brain_testing", "option", "o", Path),
-    n_iter=(15, "option", "n", int))
+    output_dir=("C:\\next\\python\\brain5_20", "option", "o", Path),
+    n_iter=(20, "option", "n", int))
 
 # def main(model=None, new_model_name='fserv', output_dir=None, n_iter=10):
-def main(model=None, new_model_name='fserv', output_dir="C:\\Users\\User\\Desktop\\Back_end\\spacy_testing\\brain_testing", n_iter=15):
+def main(model="en_core_web_sm", new_model_name='fserv', output_dir="C:\\next\\python\\brain5_20", n_iter=20):
     # """Set up the pipeline and entity recognizer, and train the new entity."""
     if model is not None:
         nlp = spacy.load(model)  # load existing spaCy model
@@ -58,13 +58,13 @@ def main(model=None, new_model_name='fserv', output_dir="C:\\Users\\User\\Deskto
             batches = minibatch(TRAIN_DATA, size=compounding(4., 32., 1.001))
             for batch in batches:
                 texts, annotations = zip(*batch)
-                nlp.update(texts, annotations, sgd=optimizer, drop=0.35,
+                nlp.update(texts, annotations, sgd=optimizer, drop=0.25,
                            losses=losses)
             print('Losses', losses)
 
     # test the trained model
     test_text = 'RHB Easy-Pinjaman Ekspres, JCL Personal loan, AEON i-Cash Personal Financing are some examples of personal loans available in Malaysia.'
-    # test_text = 'Google is great'
+    test_text = test_text.lower()
     doc = nlp(test_text)
     print("Entities in '%s'" % test_text)
     for ent in doc.ents:
